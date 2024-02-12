@@ -26,5 +26,3 @@ fig.show()
 fig = px.scatter_matrix(df, dimensions=["energy_%", "bpm", "valence_%"])
 fig.show()
 
-
-"C:\Hopefully the Final S4 Project Folder\S4-Web-App-Project\Web_App.py"
