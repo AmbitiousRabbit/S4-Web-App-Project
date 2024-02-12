@@ -18,3 +18,6 @@ if check:
 
 fig = px.histogram(df, x='streams', y='speechiness_%', histfunc='avg')
 fig.show()
+
+fig = px.scatter_matrix(df, dimensions=["energy_%", "bpm", "valence_%"])
+fig.show()
