@@ -10,6 +10,9 @@ df = pd.read_csv("spotify-2023.csv", encoding='latin1')
 st.header('Spotify\'s Top Popular Songs For 2023', divider='rainbow')          
 st.header(':green[My Software Dev Project] - Sprint 4')
 
+st.write('Hey there, where is my visuals lol')
+
+
 fig = px.histogram(df, x='streams', y='speechiness_%', histfunc='avg')
 fig.show()
 
