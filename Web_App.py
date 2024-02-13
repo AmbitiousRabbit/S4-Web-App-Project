@@ -20,7 +20,7 @@ if check:
 
 
 fig = px.histogram(df, x='streams', y='speechiness_%', histfunc='avg')
-st.write('Hello, World!')
+#st.write('Hello, World!')
 fig.show()
 
 fig = px.scatter_matrix(df, dimensions=["energy_%", "bpm", "valence_%"])
